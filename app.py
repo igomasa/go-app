@@ -286,8 +286,8 @@ if uploaded_file is not None:
                     st.session_state.board_state[st.session_state.cur_row, st.session_state.cur_col] = 1
                     st.rerun()
             with btn_c3:
-                if st.button('🔴 白石に変更'):
-                st.session_state.board_state[st.session_state.cur_row, st.session_state.cur_col] =
+                st.session_state.board_state[st.session_state.cur_row, st.session_state.cur_col] = 1
+st.rerun()
                     st.rerun()
 ```[cite: 1]
 
