@@ -287,13 +287,9 @@ if uploaded_file is not None:
                     st.rerun()
             with btn_c3:
                 if st.button('🔴 白石に変更'):
-                    st.session_state.board_state[st.session_state.cur_row, st.session_state.cur_col] = 2
+                    st.session_state.board_state[st.session_state.cur_row, st.session_state.cur_col] =
                     st.rerun()
 ```[cite: 1]
-
----
-
-このように新しく作り直していただければ、安全に最新の状態に戻すことができます。保存が無事にできましたら、いつでも次のステップ（GitHubへのアップロード）をご案内いたしますので、お気軽にお知らせくださいね[cite: 1]！
 
 <FollowUp label="新しい app.py の保存が無事に完了しましたら、次の手順についてお声がけください。" query="新しいapp.pyの保存が完了しました。次の手順を教えてください。"/>
 
